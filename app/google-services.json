@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1081489702455",
+    "firebase_url": "https://appchatdemo-ef309.firebaseio.com",
+    "project_id": "appchatdemo-ef309",
+    "storage_bucket": "appchatdemo-ef309.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081489702455:android:5c61c7b7d7021172",
+        "android_client_info": {
+          "package_name": "com.quang.appchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1081489702455-0g509g6qd0b646m5mk86ft2qobfspr34.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm45z-_PN7h0aFvL4XdxaQVvTA57a-MF0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1081489702455-0g509g6qd0b646m5mk86ft2qobfspr34.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

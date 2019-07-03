@@ -1,31 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/colorPrimary"
         android:orientation="vertical"
-        tools:context=".base.activity.MainActivity"
         android:padding="20dp"
         android:gravity="center">
-
-    <TextView
-            android:layout_marginBottom="100dp"
-            android:textSize="40dp"
-            android:gravity="center"
-            android:textStyle="bold"
-            android:textColor="@color/colorWhite"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/DangNhap"/>
 
     <EditText
             android:background="@color/colorWhite"
             android:textColorHint="@color/colorPrimaryHint"
             android:padding="10dp"
-            android:hint="User Name"
-            android:textSize="20dp"
+            android:hint="@string/user_name"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+    <EditText
+            android:background="@color/colorWhite"
+            android:textColorHint="@color/colorPrimaryHint"
+            android:padding="10dp"
+            android:hint="@string/email"
+            android:textSize="20sp"
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
@@ -35,12 +33,12 @@
             android:inputType="textPassword"
             android:layout_marginTop="10dp"
             android:padding="10dp"
-            android:hint="Password"
-            android:textSize="20dp"
+            android:hint="@string/password"
+            android:textSize="20sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
-    <Button android:text="Login"
-            android:textSize="20dp"
+    <Button android:text="@string/register"
+            android:textSize="20sp"
             android:padding="10dp"
             android:layout_marginTop="20dp"
             android:background="@color/colorWhite"
@@ -48,11 +46,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     <TextView
-            android:id="@+id/tv_goRegister"
+            android:id="@+id/tv_goTologin"
             android:layout_marginTop="20dp"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:textColor="@color/colorWhite"
-            android:text="Back to Register"
+            android:text="@string/already_have_an_account"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
