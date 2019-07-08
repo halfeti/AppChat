@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "1081489702455-3ehpo313h48eml2pddklhr79j71n76ef.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.quang.appchat",
+            "certificate_hash": "0077b3b930d5e94cef5e017f10ac27f5b0bcb7bd"
+          }
+        },
+        {
           "client_id": "1081489702455-0g509g6qd0b646m5mk86ft2qobfspr34.apps.googleusercontent.com",
           "client_type": 3
         }

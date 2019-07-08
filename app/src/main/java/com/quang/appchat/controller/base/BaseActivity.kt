@@ -95,6 +95,9 @@ abstract class BaseActivity : AppCompatActivity() {
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
     }
 
+    abstract fun initView()
+
+
     class Setup(val tag: String,
                 val layoutId: Int = 0,
                 val containerId: Int = android.R.id.content)

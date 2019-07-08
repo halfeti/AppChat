@@ -6,4 +6,7 @@
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorWhiteHint">#50FFFFFF</color>
     <color name="colorPrimaryHint">#50008577</color>
+    <color name="colorBlackHin">#808080</color>
+    <color name="orange">#F2B561</color>
+    <color name="colorBlack">#000000</color>
 </resources>

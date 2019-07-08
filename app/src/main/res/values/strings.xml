@@ -6,4 +6,10 @@
     <string name="password">Password</string>
     <string name="register">Register</string>
     <string name="already_have_an_account">Already have an account?</string>
+    <string name="tin_nhan">Tin Nhắn</string>
+    <string name="ca_nhan">Cá Nhân</string>
+    <string name="np">NP</string>
+    <string name="app_text">Bạn: đá</string>
+    <string name="app_name_team">HaHa</string>
+    <string name="app_time">Lúc: 22:22 ngày 24/06/2019</string>
 </resources>
